@@ -1,31 +1,32 @@
 {
-    "name": "jscourse-repeat",
-    "version": "1.0.0",
-    "description": "repeat teachers code while jscourse learning",
-    "main": "./src/index.tsx",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "ijl-cli --server --port=8099 --with-open-browser",
-        "build": "npm run clean && ijl-cli --build --dev",
-        "build:prod": "npm run clean && ijl-cli --build",
-        "clean": "rimraf dist"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/daniad125/jscourse-repeat.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/daniad125/jscourse-repeat/issues"
-    },
-    "homepage": "https://github.com/daniad125/jscourse-repeat#readme",
-    "dependencies": {
-        "@ijl/cli": "^2.1.0",
-        "express": "^4.17.1",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
-        "typescript": "^4.1.2"
-    }
+  "name": "jscourse-repeat",
+  "version": "1.0.0",
+  "description": "repeat teachers code while jscourse learning",
+  "main": "./src/index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ijl-cli --server --port=8099 --with-open-browser",
+    "build": "npm run clean && ijl-cli --build --dev",
+    "build:prod": "npm run clean && ijl-cli --build",
+    "clean": "rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniad125/jscourse-repeat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniad125/jscourse-repeat/issues"
+  },
+  "homepage": "https://github.com/daniad125/jscourse-repeat#readme",
+  "dependencies": {
+    "@ijl/cli": "^2.1.0",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {}
 }
