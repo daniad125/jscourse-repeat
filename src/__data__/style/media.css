@@ -1,0 +1,5 @@
+:root {
+    @custom-media --media-lg (min-width:1056px);
+    @custom-media --media-md (min-width:732px) and (max-width:1055.90px);
+    @custom-media --media-sm (max-width:731.90px);
+}

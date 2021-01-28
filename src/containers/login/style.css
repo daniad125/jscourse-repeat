@@ -1,0 +1,21 @@
+@import '../../__data__/style/colors.css';
+@import '../../__data__/style/media.css';
+.wrapper {
+    background:var(--purple-4);
+}
+.login-form{
+    padding: 20px;
+    background-color: var(--white);
+    max-width:416px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    @media (--media-sm) {
+        padding:0 20px
+    }
+}
+
+.submit-button {
+    margin-top: var(--offset-md)
+}

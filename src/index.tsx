@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-const App = () => <h1>Hello world для проекта - jscourse-repeat</h1>
+import App from './app'
+//const App = () => <h1>Hello world для проекта - jscourse-repeat</h1>
 
-export default () => <App/>;
+//import Counter from './counter'
+export default () => (<App/>);
 
 export const mount = (Сomponent) => {
     ReactDom.render(
@@ -15,4 +17,3 @@ export const mount = (Сomponent) => {
 export const unmount = () => {
     ReactDom.unmountComponentAtNode(document.getElementById('app'));
 };
-

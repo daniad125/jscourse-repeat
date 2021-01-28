@@ -1,0 +1,23 @@
+@import '../../__data__/style/colors.css';
+@import '../../__data__/style/sizes.css';
+
+.main {
+    border-radius: 10px;
+    min-height: 40px;
+    font-size: var(--offset-md);
+    font-weight: 600;
+    color: var(--white-2);
+    border:none;
+
+    &:focus {
+        outline-color: var(--black);
+    }
+}
+
+.purple {
+    background-color:var(--purple-4);
+}
+
+.blue {
+    background-color:var(--blue-4);
+}

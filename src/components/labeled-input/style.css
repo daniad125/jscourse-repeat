@@ -1,0 +1,24 @@
+@import '../../__data__/style/colors.css';
+@import '../../__data__/style/sizes.css';
+.wrapper {
+    margin-top: var(--offset-md);
+
+    .label {
+        display: black;
+        font-size: var(--offset-md);
+        font-weight: 700;
+    }
+
+    .field {
+        margin-top: 5px;
+        display: black;
+        height: 40px;
+        background-color: var(--white-2);
+        width: 100%;
+        border: none;
+        border-radius: var(--offset-md);
+        outline-color: var(--black);
+        padding: var(--offset-xs) var(--offset-sm);
+        font-size: var(--offset-sm);
+    }
+}
